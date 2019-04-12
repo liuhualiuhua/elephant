@@ -1,6 +1,23 @@
+# 小程序跨平台开发框架
+
+0.[小程序多端框架全面测评-凹凸实验室](https://mp.weixin.qq.com/s/veC_DgjZnQXmjyVJvONZSQ)
+1.Taro
+2.uni-app
+3.chameleon 
+
+# 小程序组件化开发框架
+1.WePY [WePY](https://tencent.github.io/wepy/)
+2.mpvue [mpvue](http://mpvue.com/)
+
+# 小程序UI组件库
+1.WeUI WXSS  WeUI WXSS是腾讯官方UI组件库WeUI的小程序版，提供了跟微信界面风格一致的用户体验。 [WeUI WXSS](https://github.com/Tencent/weui-wxss)
+2.ColorUI ColorUI在美观性方面比较突出 [ColorUI](https://github.com/weilanwl/ColorUI)
+3.iView WeApp iView [iView](https://github.com/TalkingData/iview-weapp)
+4.ZanUI WeApp 有赞  [ZanUI](https://github.com/youzan/zanui-weapp)
+5.MinUI 蘑菇街 [MinUI](https://github.com/meili/minui)
 
 
-# 微信小程序开发早知道(转载自掘金)
+# 微信小程序开发早知道(转载自掘金-)
 > [微信小程序开发早知道](https://segmentfault.com/a/1190000018727642)
 1. 小程序没有跳转公众号、跳转公众号图文素材的能力。除非用户通过扫描二维码进入小程序的情景，可以显示关注公众号组件。公众号菜单、公众号图文素材可以打开小程序，网页无法直接打开小程序。
 2. 小程序内嵌网页、内嵌网页中跳转链接、iframe 嵌套的页面，都必须在安全域名内，否则无法访问。如果想在小程序内加入第三方广告，要注意这点，因为安全域名修改是有次数限制的，并要求验证服务器。还要注意网页中嵌套 iframe 的情况，例如，网页内嵌了腾讯视频 iframe，由于腾讯视频不在安全域名内，会造成页面无法访问。
@@ -23,6 +40,7 @@
 19. 小程序不支持摇一摇功能，但可以通过监听加速度传感器来实现。
 20. 小程序有官方的广告组件，广告收入官方会抽走一部分。
 21. 想到再更，欢迎补充.
+
 
 
 
